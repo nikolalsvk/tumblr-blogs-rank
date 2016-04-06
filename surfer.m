@@ -2,9 +2,6 @@ function [G] = surfer(U)
 
 % Initialize
 
-
-
-
 [n, t] = size(U);
 G = zeros(n, n);
 m = 1;
